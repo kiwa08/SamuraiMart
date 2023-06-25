@@ -1,0 +1,225 @@
+/* フォント */
+@font-face {
+    font-family: YuGo;
+    src: local(YuGo-Medium),
+      url(/path/to/YuGo-Medium.woff2) format("woff2"),
+      url(/path/to/YuGo-Medium.woff) format("woff"),
+      url(/path/to/YuGo-Medium.ttf) format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: YuGo;
+    src: local(YuGo-Bold),
+      url(/path/to/YuGo-Bold.woff2) format("woff2"),
+      url(/path/to/YuGo-Bold.woff) format("woff"),
+      url(/path/to/YuGo-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+h1 {
+    font-family: YuGo;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.13px;
+}
+
+h2 {
+    font-family: YuGo;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+h3 {
+    font-family: YuGo;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.04px;
+}
+
+big {
+    font-family: YuGo;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.08px;
+}
+
+body {
+    font-family: YuGo;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.11px;
+}
+
+caption {
+    font-family: YuGo;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.08px;
+}
+
+label {
+    font-family: YuGo;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+/* ログイン画面　フォームの枠 */
+.samuraimart-login-input {
+  border-radius: 2px;
+  border: solid 1px #b2b2b2;
+  background-color: #ffffff;
+}
+
+/* ログイン画面　チェックボックス「次回から自動的にログインする」 */
+.samuraimart-check-label {
+  font-family: YuGo;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+/* アカウント登録画面　必須入力マーク */
+.samuraimart-require-input-label {
+  border-radius: 1px;
+  background-color: #e2001b;
+}
+.samuraimart-require-input-label-text {
+  font-family: YuGo;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+/* ログインボタン */
+.samuraimart-submit-button {
+  font-family: YuGo;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  background-color: #0fbe9f;
+}
+
+/* ログイン画面　リンクの文字の色 */
+.samuraimart-login-text {
+  font-family: YuGo;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #0fbe9f;
+}
+/* ヘッダーの背景 */
+.samuraimart-header-container {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+/* ヘッダーの検索の枠 */
+.samuraimart-header-search-input {
+    border: solid 1px #e5e5e5;
+}
+/* ヘッダーの検索ボタン */
+.samuraimart-header-search-button {
+    background-color: #0fbe9f;
+}
+/* ヘッダーの検索ボタンの虫めがねの色 */
+.samuraimart-header-search-icon {
+    color: #ffffff;
+}
+
+.samuraimart-header-fav-icon {
+    color: #191919;
+}
+
+.samuraimart-header-shoppingcart-icon {
+    color: #ffffff;
+}
+/* お気に入りボタン */
+.samuraimart-favorite-button {
+    border-radius: 2px;
+    border: solid 1px #0fbe9f;
+    background-color: #ffffff;
+}
+
+.text-favorite {
+    color: #0fbe9f;
+}
+
+/* サイドバー */
+.samuraimart-sidebar-category-label {
+    width: 156px;
+    height: 20px;
+    font-family: YuGo;
+    font-size: 13px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #191919;
+}
+
+/* お気に入り　カートに入れる */
+.samuraimart-favorite-add-cart {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #0fbe9f;
+}
+
+/* レビュー評価★ */
+.review-score-color {
+    color: #0fbe9f;
+}
+/* :focus＝入力可能状態の疑似クラス */
+.review-score-color:focus {
+    color: #0fbe9f;
+}
+
+/* 退会ボタン */
+.samuraimart-delete-submit-button {
+    border-radius: 2px;
+    color: #ffffff;
+    background-color: #d94b0e;
+  }
